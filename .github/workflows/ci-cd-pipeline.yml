@@ -40,7 +40,6 @@ jobs:
   build:
     name: Build (Empacotamento)
     runs-on: ubuntu-latest
-    needs: test
     
     steps:
       - name: Checkout do código
